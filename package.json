@@ -1,7 +1,7 @@
 {
-  "name": "frame",
-  "version": "13.4.4",
-  "description": "A user system API starter",
+  "name": "legacy-lane",
+  "version": "0.0.1",
+  "description": "Bricks and requests for Legacy Lane",
   "main": "index.js",
   "scripts": {
     "start": "nodemon -e js,md server.js",
@@ -13,10 +13,10 @@
   "author": "Reza Akhavan <jedireza@gmail.com> (http://reza.akhavan.me/)",
   "license": "MIT",
   "engines": {
-    "node": "9.x.x"
+    "node": "10.x.x"
   },
   "dependencies": {
-    "bcrypt": "1.x.x",
+    "bcrypt": "3.x.x",
     "boom": "7.x.x",
     "confidence": "3.x.x",
     "dotenv": "5.x.x",
